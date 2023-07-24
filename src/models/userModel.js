@@ -1,4 +1,4 @@
-const db = require('../config/dbConfig');
+const db = require('../../config/dbConfig');
 
 exports.getAllUsers = () => {
   return new Promise((resolve, reject) => {
